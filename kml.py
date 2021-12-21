@@ -122,7 +122,7 @@ def publik(romz,headers=header):
         os.mkdir('dump')
     except:pass
     try:
-    	print ("\n%s╔══[%s•%s] Ketik '%sme%s' jika ingin dump daftar teman sendiri "%(P,M,P,H,P))
+    	print ("\n%s╔══[%s•%s] Qor '%sme%s' hadu was rabto inaad jabsado saxibadada "%(P,M,P,H,P))
         idt = raw_input('╠══[?] Target id : %s'%(K))
         gas = requests.get('https://graph.facebook.com/%s?access_token=%s'%(idt,romz))
         nm = json.loads(gas.text)
