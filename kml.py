@@ -122,7 +122,7 @@ def publik(romz,headers=header):
         os.mkdir('dump')
     except:pass
     try:
-    	print ("\n%s╔══[%s•%s] Qor '%sme%s' hadu was rabto inaad jabsado saxibadada "%(P,M,P,H,P))
+    	print ("\n%s╔══[%s•%s] Qor '%sme%s' hadu aad rabto inaad jabsato saxibadada "%(P,M,P,H,P))
         idt = raw_input('╠══[?] Target id : %s'%(K))
         gas = requests.get('https://graph.facebook.com/%s?access_token=%s'%(idt,romz))
         nm = json.loads(gas.text)
@@ -133,11 +133,11 @@ def publik(romz,headers=header):
         for a in z['friends']['data']:
             id.append(a['id'] + '<=>' + a['name'])
             bff.write(a['id'] + '<=>' + a['name'] + '\n')
-            print '\r%s╚══[•] mohon sabar sedang dump id :%s %s ' % (P,H,str(len(id))),
+            print '\r%s╚══[•] jabsashada wey Socota inyar sug :%s %s ' % (P,H,str(len(id))),
             sys.stdout.flush();jeda(0.0050)
         bff.close()
-        print ('\n \n%s╔══[%s✓%s] Succes dump id dari %s%s'%(P,H,P,H,nm['name']))
-        print ('%s╚══[%s•%s] Salin file dump nya :%s %s '%(P,H,P,H,file))
+        print ('\n \n%s╔══[%s✓%s] wad jabisay passwordka waa %s%s'%(P,H,P,H,nm['name']))
+        print ('%s╚══[%s•%s] copy dheh dump fileka :%s %s '%(P,H,P,H,file))
         raw_input('%s╚══[ %Enter %s] '%(P,K,P))
         menu()
     except Exception as e:
