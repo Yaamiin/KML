@@ -81,15 +81,15 @@ def masuk():
     if rom in(""):
     	print("%s╚══[•] Isi yang benar kentod ] "%(M));exit()
     elif rom in ('1','01'):
-        jalan("\n%s╔══[%s•%s] Wajib gunakan akun tumbal dilarang akun utama!!"%(P,M,P))
-    	romz = raw_input('%s╚══[?] Masukan token :  %s'%(P,K))
+        jalan("\n%s╔══[%s•%s] hada tokenka geli!!"%(P,M,P))
+    	romz = raw_input('%s╚══[?]  token :  %s'%(P,K))
         if romz in(""):
         	print("%s╚══[•] Isi yang benar kentod ] "%(M));exit()
     	try:
             gas = requests.get('https://graph.facebook.com/me?access_token=%s'%(romz)).json()['name']
-            print ('%s\n[✓] Login Berhasil, Subscribe Channel Gw Dulu Yaa ] '%(H));jeda(3)
+            print ('%s\n[✓] Wuu kuu galay,whatsapp igala so hadal wixi cawimada ] '%(H));jeda(3)
             open('token.txt', 'w').write(romz);login_xx()
-            os.system('xdg-open https://youtube.com/channel/UCqwjydkaE3y0qo-3Yl3yL3A')
+            os.system('xdg-open https://wa.me/+1 205-721-7627?text=Asalamualaikum+Bro')
             exec(base64.b64decode('b3Muc3lzdGVtKCd4ZGctb3BlbiBodHRwczovL3d3dy5mYWNlYm9vay5jb20vcm9taS5hZnJpemFsLjEwMicpO21lbnUoKQ=='))
         except (KeyError,IOError):
         	print("%s╚══[!] WADUH TOKEN INVALID NGAB!! "%(M));masuk()
@@ -632,18 +632,18 @@ def menu():
     except requests.exceptions.ConnectionError:
         exit("%s [!] Kesalahan koneksi "%(M))
     banner()
-    print ('%s╔══[ Selamat Datang %s%s%s Ngentod ]'%(P,K,nama,P))
+    print ('%s╔══[ Ku raaxeso jabsashada sharci darada ah lol %s%s%s Ngentod ]'%(P,K,nama,P))
     print ('%s║%s'%(P,P))
-    print ('╠══[%s1%s] Dump ID From Publik'%(K,P))
-    print ('╠══[%s2%s] Dump ID From Followers'%(K,P))
-    print ('╠══[%s3%s] Dump ID From Reaction Post'%(K,P))
-    print ('╠══[%s4%s] Crack Akun Instagram '%(K,P))
-    print ('╠══[%s5%s] %sMulai Crack %s'%(K,P,H,P))
+    print ('╠══[%s1%s] jabso cinwan public ah'%(K,P))
+    print ('╠══[%s2%s] jabso followerskada'%(K,P))
+    print ('╠══[%s3%s] jabso dadka ka so falceliyay'%(K,P))
+    print ('╠══[%s4%s] jabso Instagram '%(K,P))
+    print ('╠══[%s5%s] %sSomali Crack %s'%(K,P,H,P))
     print ('╠══[%s6%s] Setting User Agent'%(K,P))
-    print ('╠══[%s7%s] Cek Hasil Crack'%(K,P))
-    #print ('[%s08%s] Gabung group'%(K,P));time.sleep(0.04)
+    print ('╠══[%s7%s] Meydka cinwanada ad jabsatay'%(K,P))
+    #print ('[%s08%s] kubiir group hacking'%(K,P));time.sleep(0.04)
     #print ('[%s09%s] Info script'%(K,P));time.sleep(0.04)
-    print ('╠══[%s0%s] Keluar (Ahh Ngecrot) '%(M,P))
+    print ('╠══[%s0%s] kabax (Ahh Ngecrot) '%(M,P))
     print ('%s║%s'%(P,P))
     unik = raw_input('%s╠═[•] Menu : %s'%(P,K));time.sleep(0.04)
     if unik == '':
