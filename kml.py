@@ -75,7 +75,7 @@ def banner():
 header = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent": "NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+ ;]", "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
 def masuk():
     os.system('clear');banner()
-    print ('%s╔══[1] Login pakai token \n╠══[2] Cara mendapatkan token \n╠══[%s0%s] Keluar \x1b[0;91m[Ahh Ngecrot]'%(P,M,P))
+    print ('%s╔══[1] token ku gal \n╠══[2] sida lo helo token \n╠══[%s0%s] ezit \x1b[0;91m[Ahh Ngecrot]'%(P,M,P))
     print ('%s║%s'%(P,K))
     rom = raw_input('%s╚══[•] Menu : %s'%(P,K))
     if rom in(""):
