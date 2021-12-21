@@ -141,7 +141,7 @@ def publik(romz,headers=header):
         raw_input('%s╚══[ %Enter %s] '%(P,K,P))
         menu()
     except Exception as e:
-        exit('\n%s[✓] Dump Selesai Ngab'%(P))
+        exit('\n%s[✓] Somali hackers power'%(P))
 # DUMP FOLLOWERS
 def followers(romz,headers=header):
     try:
