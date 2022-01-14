@@ -209,11 +209,11 @@ class ngentod:
             self.id = open(self.apk).read().splitlines()
             print ('%s╠══[%s•%s] total id : %s%s' %(P,K,P,H,len(self.id))
         except:
-            print '\n%s╠══[!] File tidak ada, dump id dulu lah kentod'%(M)
+            print ('\n%s╠══[!] File tidak ada, dump id dulu lah kentod'%(M)
             raw_input('\n%s╚══[ %sEnter %s] '%(P,K,P));menu()
         unikers = raw_input('%s╚══[?] ingin menggunakan password manual? [y/t] :%s '%(P,K))
         if unikers in ('Y', 'y'):
-            print '\n%s╔══[%s!%s] Gunakan (koma) untuk tanda pemisah '%(P,M,P,H,P)
+            print ('\n%s╔══[%s!%s] Gunakan (koma) untuk tanda pemisah '%(P,M,P,H,P)
             while True:
                 pwx = raw_input('%s╚══[?] password :%s '%(P,K))
                 if pwx == '':
