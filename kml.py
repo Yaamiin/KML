@@ -660,7 +660,7 @@ def menu():
     elif unik in['4','04']:
     	igg()
     elif unik in['5','05']:
-        ngentod().romiy()
+        ngentod()
     elif unik in['6','06']:
     	useragent()
     elif unik in['7','07']:
